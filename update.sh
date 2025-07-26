@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cd ~/workspace/mtgserver
+cd ~/workspace/SurgeMTG
 git submodule update --init --recursive
 git pull --recurse-submodules
 
-cd ~/workspace/mtgserver/MMOCoreORB
+cd ~/workspace/SurgeMTG/MMOCoreORB
 make -j8
 
-cd ~/workspace/mtgserver/MMOCoreORB/bin
+cd ~/workspace/SurgeMTG/MMOCoreORB/bin
   ./core3
